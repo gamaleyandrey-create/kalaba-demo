@@ -1,9 +1,3 @@
 # Kalaba
 
-Premium HTML-прототип Kalaba для GitHub Pages.
-
-- Русский по умолчанию
-- Украинский язык в переключателе
-- Светлая и тёмная темы
-- Все файлы без папок
-- Современный SaaS-дизайн
+Clean premium prototype for GitHub Pages.
