@@ -1,6 +1,7 @@
 
 (function(){
- let lang=localStorage.getItem('kalaba_lang')||'ru';
+ let lang='ru';
+ localStorage.setItem('kalaba_lang','ru');
  let dark=localStorage.getItem('kalaba_theme')==='dark';
  function apply(){
   document.documentElement.lang=lang;
