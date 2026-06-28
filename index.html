@@ -1,52 +1,129 @@
 <!doctype html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kalaba — Главная</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kalaba — Главная</title>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-<aside class="sidebar">
-  <div class="brand"><div class="logo">K</div><div><b>Kalaba</b><span data-ru="Платформа услуг" data-uk="Платформа послуг">Платформа услуг</span></div></div>
-  <nav><a href="index.html" data-ru="Главная" data-uk="Головна">Главная</a><a href="search.html" data-ru="Поиск" data-uk="Пошук">Поиск</a><a href="catalog.html" data-ru="Каталог" data-uk="Каталог">Каталог</a><a href="company.html" data-ru="Компания" data-uk="Компанія">Компания</a><a href="request.html" data-ru="Заявка" data-uk="Заявка">Заявка</a><a href="offers.html" data-ru="Предложения" data-uk="Пропозиції">Предложения</a><a href="chat.html" data-ru="Чат" data-uk="Чат">Чат</a><a href="deal.html" data-ru="Сделка" data-uk="Угода">Сделка</a><a href="payment.html" data-ru="Оплата" data-uk="Оплата">Оплата</a><a href="reviews.html" data-ru="Отзывы" data-uk="Відгуки">Отзывы</a><a href="map.html" data-ru="Карта" data-uk="Карта">Карта</a><a href="customer.html" data-ru="Кабинет клиента" data-uk="Кабінет клієнта">Кабинет клиента</a><a href="business.html" data-ru="Кабинет компании" data-uk="Кабінет компанії">Кабинет компании</a><a href="crm.html" data-ru="CRM" data-uk="CRM">CRM</a><a href="analytics.html" data-ru="Аналитика" data-uk="Аналітика">Аналитика</a><a href="admin.html" data-ru="Админ" data-uk="Адмін">Админ</a><a href="settings.html" data-ru="Настройки" data-uk="Налаштування">Настройки</a><a href="help.html" data-ru="Помощь" data-uk="Допомога">Помощь</a></nav>
-  <div class="side-promo"><b data-ru="Премиум доступ" data-uk="Преміум доступ">Премиум доступ</b><p data-ru="Больше возможностей для компании" data-uk="Більше можливостей для компанії">Больше возможностей для компании</p></div>
-</aside>
-<main>
-<header class="topbar">
-  <div class="search-top"><input placeholder="Поиск услуг, компаний, специалистов..." data-placeholder-ru="Поиск услуг, компаний, специалистов..." data-placeholder-uk="Пошук послуг, компаній, спеціалістів..."></div>
-  <div class="top-actions">
-    <button class="lang active" data-lang="ru">Русский</button>
-    <button class="lang" data-lang="uk">Українська</button>
-    <button id="theme" class="round">☾</button>
-    <button class="round">🔔</button>
-  </div>
-</header>
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="logo">K</div>
+      <div><b>Kalaba</b><span data-ru="Платформа услуг" data-uk="Платформа послуг">Платформа услуг</span></div>
+    </div>
+    <div class="nav-title" data-ru="Полная платформа" data-uk="Повна платформа">Полная платформа</div>
+    <nav><a href="index.html" data-ru="Главная" data-uk="Головна"><span class="nav-dot"></span>Главная</a><a href="search.html" data-ru="Поиск услуг" data-uk="Пошук послуг"><span class="nav-dot"></span>Поиск услуг</a><a href="catalog.html" data-ru="Каталог компаний" data-uk="Каталог компаній"><span class="nav-dot"></span>Каталог компаний</a><a href="request.html" data-ru="Создание заявки" data-uk="Створення заявки"><span class="nav-dot"></span>Создание заявки</a><a href="offers.html" data-ru="Предложения" data-uk="Пропозиції"><span class="nav-dot"></span>Предложения</a><a href="chat.html" data-ru="Чат и сообщения" data-uk="Чат і повідомлення"><span class="nav-dot"></span>Чат и сообщения</a><a href="deal.html" data-ru="Сделки" data-uk="Угоди"><span class="nav-dot"></span>Сделки</a><a href="payment.html" data-ru="Оплата онлайн" data-uk="Оплата онлайн"><span class="nav-dot"></span>Оплата онлайн</a><a href="reviews.html" data-ru="Отзывы и рейтинг" data-uk="Відгуки та рейтинг"><span class="nav-dot"></span>Отзывы и рейтинг</a><a href="map.html" data-ru="Карта компаний" data-uk="Карта компаній"><span class="nav-dot"></span>Карта компаний</a><a href="customer.html" data-ru="Кабинет клиента" data-uk="Кабінет клієнта"><span class="nav-dot"></span>Кабинет клиента</a><a href="business.html" data-ru="Кабинет компании" data-uk="Кабінет компанії"><span class="nav-dot"></span>Кабинет компании</a><a href="admin.html" data-ru="Админ-панель" data-uk="Адмін-панель"><span class="nav-dot"></span>Админ-панель</a><a href="analytics.html" data-ru="Аналитика и отчёты" data-uk="Аналітика та звіти"><span class="nav-dot"></span>Аналитика и отчёты</a><a href="settings.html" data-ru="Настройки" data-uk="Налаштування"><span class="nav-dot"></span>Настройки</a></nav>
+    <div class="side-box">
+      <b data-ru="Готово для презентации" data-uk="Готово для презентації">Готово для презентации</b>
+      <p data-ru="Единый чистовой прототип для GitHub Pages" data-uk="Єдиний чистовий прототип для GitHub Pages">Единый чистовой прототип для GitHub Pages</p>
+    </div>
+  </aside>
 
+  <main>
+    <header class="topbar">
+      <div class="top-search">
+        <span>⌕</span>
+        <input placeholder="Поиск услуг, компаний, специалистов..." data-placeholder-ru="Поиск услуг, компаний, специалистов..." data-placeholder-uk="Пошук послуг, компаній, спеціалістів..."/>
+      </div>
+      <div class="top-actions">
+        <button class="lang active" data-lang="ru">Русский</button>
+        <button class="lang" data-lang="uk">Українська</button>
+        <button class="theme" id="themeToggle">☾</button>
+        <button class="bell">🔔<i>2</i></button>
+        <div class="user"><div>A</div><b>Александр</b><span data-ru="Клиент" data-uk="Клієнт">Клиент</span></div>
+      </div>
+    </header>
+    
 <section class="hero">
-  <div class="hero-text">
-    <span class="badge" data-ru="Русский по умолчанию · Українська доступна" data-uk="Російська за замовчуванням · Українська доступна">Русский по умолчанию · Українська доступна</span>
+  <div class="hero-content">
+    <div class="hero-badges">
+      <div><b>4.9 ★★★★★</b><span data-ru="500+ отзывов" data-uk="500+ відгуків">500+ отзывов</span></div>
+      <div><b>🛡</b><span data-ru="Безопасные сделки" data-uk="Безпечні угоди">Безопасные сделки</span></div>
+    </div>
     <h1><span>Kalaba</span> — <span data-ru="платформа для поиска услуг и управления сделками" data-uk="платформа для пошуку послуг і керування угодами">платформа для поиска услуг и управления сделками</span></h1>
     <p data-ru="Найдите проверенные компании, создайте заявку, получайте предложения и управляйте сделками в одном месте." data-uk="Знайдіть перевірені компанії, створіть заявку, отримуйте пропозиції та керуйте угодами в одному місці.">Найдите проверенные компании, создайте заявку, получайте предложения и управляйте сделками в одном месте.</p>
-    <div class="hero-search"><input placeholder="Какая услуга вам нужна?" data-placeholder-ru="Какая услуга вам нужна?" data-placeholder-uk="Яка послуга вам потрібна?"><input placeholder="Где искать?" data-placeholder-ru="Где искать?" data-placeholder-uk="Де шукати?"><a href="search.html" data-ru="Найти услуги" data-uk="Знайти послуги">Найти услуги</a></div>
-    <div class="chips"><span>🛠 Ремонт</span><span>🧹 Клининг</span><span>🚚 Перевозки</span><span>🎨 Дизайн</span></div>
+    <div class="hero-search">
+      <input placeholder="Какая услуга вам нужна?" data-placeholder-ru="Какая услуга вам нужна?" data-placeholder-uk="Яка послуга вам потрібна?"/>
+      <input placeholder="Где искать?" data-placeholder-ru="Где искать?" data-placeholder-uk="Де шукати?"/>
+      <a class="btn" href="search.html" data-ru="Найти услуги" data-uk="Знайти послуги">Найти услуги</a>
+    </div>
+    <div class="chips">
+      <a href="catalog.html">🛠 <span data-ru="Ремонт и строительство" data-uk="Ремонт і будівництво">Ремонт и строительство</span></a>
+      <a href="catalog.html">🧹 <span data-ru="Клининг" data-uk="Клінінг">Клининг</span></a>
+      <a href="catalog.html">🚚 <span data-ru="Грузоперевозки" data-uk="Вантажоперевезення">Грузоперевозки</span></a>
+      <a href="catalog.html">🎨 <span data-ru="Дизайн" data-uk="Дизайн">Дизайн</span></a>
+    </div>
   </div>
-  <div class="phone"><div class="notch"></div><h3>Kalaba</h3><p data-ru="Лучшие услуги рядом с вами" data-uk="Найкращі послуги поруч із вами">Лучшие услуги рядом с вами</p><div class="phone-input">Поиск услуг...</div><button>Найти</button><div class="mini-card">МастерПлюс · ⭐ 4.9</div></div>
+  <div class="phone">
+    <div class="phone-top"></div>
+    <h3>Kalaba</h3>
+    <b data-ru="Найдите лучшие услуги рядом с вами" data-uk="Знайдіть найкращі послуги поруч із вами">Найдите лучшие услуги рядом с вами</b>
+    <input placeholder="Поиск услуг..." data-placeholder-ru="Поиск услуг..." data-placeholder-uk="Пошук послуг..."/>
+    <button data-ru="Найти" data-uk="Знайти">Найти</button>
+    <div class="phone-card"><div class="mini-photo p1"></div><div><b>МастерПлюс</b><span>⭐ 4.9 · Онлайн</span><small>от 500 €/м²</small></div></div>
+  </div>
 </section>
-<div class="metrics">
-<div><strong>12 850+</strong><span data-ru="Проверенных компаний" data-uk="Перевірених компаній">Проверенных компаний</span></div>
-<div><strong>28 540+</strong><span data-ru="Успешных сделок" data-uk="Успішних угод">Успешных сделок</span></div>
-<div><strong>98%</strong><span data-ru="Положительных отзывов" data-uk="Позитивних відгуків">Положительных отзывов</span></div>
-<div><strong>100%</strong><span data-ru="Безопасные оплаты" data-uk="Безпечні оплати">Безопасные оплаты</span></div>
-</div>
-<section class="section"><div class="section-title"><h2 data-ru="Рекомендуемые компании" data-uk="Рекомендовані компанії">Рекомендуемые компании</h2><a href="catalog.html">Смотреть все</a></div><div class="company-grid">
-<article class="company-card"><div class="photo p1"></div><div><em data-ru="Онлайн" data-uk="Онлайн">Онлайн</em><h3>МастерПлюс</h3><p>⭐ 4.9 · 128 отзывов</p><p data-ru="Ремонт под ключ" data-uk="Ремонт під ключ">Ремонт под ключ</p><b>от 500 €/м²</b><a href="company.html" data-ru="Открыть" data-uk="Відкрити">Открыть</a></div></article>
-<article class="company-card"><div class="photo p2"></div><div><em data-ru="Онлайн" data-uk="Онлайн">Онлайн</em><h3>CleanHouse</h3><p>⭐ 4.8 · 96 отзывов</p><p data-ru="Клининговые услуги" data-uk="Клінінгові послуги">Клининговые услуги</p><b>от 150 €</b><a href="company.html" data-ru="Открыть" data-uk="Відкрити">Открыть</a></div></article>
-<article class="company-card"><div class="photo p3"></div><div><em data-ru="Онлайн" data-uk="Онлайн">Онлайн</em><h3>Перевозкин</h3><p>⭐ 4.9 · 73 отзыва</p><p data-ru="Грузоперевозки" data-uk="Вантажоперевезення">Грузоперевозки</p><b>от 40 €/час</b><a href="company.html" data-ru="Открыть" data-uk="Відкрити">Открыть</a></div></article>
-</div></section>
-<section class="section two"><div class="panel"><h2 data-ru="Мои активные заявки" data-uk="Мої активні заявки">Мои активные заявки</h2><p data-ru="Ремонт квартиры 60 м² — в поиске исполнителя" data-uk="Ремонт квартири 60 м² — у пошуку виконавця">Ремонт квартиры 60 м² — в поиске исполнителя</p></div><div class="panel"><h2 data-ru="Непрочитанные сообщения" data-uk="Непрочитані повідомлення">Непрочитанные сообщения</h2><p>МастерПлюс: <span data-ru="готовы предложить смету" data-uk="готові запропонувати кошторис">готовы предложить смету</span></p></div></section>
+<section class="metrics">
+  <div><i class="ico blue">👥</i><strong>12 850+</strong><span data-ru="Проверенных компаний" data-uk="Перевірених компаній">Проверенных компаний</span></div>
+  <div><i class="ico green">✓</i><strong>28 540+</strong><span data-ru="Успешных сделок" data-uk="Успішних угод">Успешных сделок</span></div>
+  <div><i class="ico purple">★</i><strong>98%</strong><span data-ru="Положительных отзывов" data-uk="Позитивних відгуків">Положительных отзывов</span></div>
+  <div><i class="ico orange">🛡</i><strong>100%</strong><span data-ru="Безопасные оплаты" data-uk="Безпечні оплати">Безопасные оплаты</span></div>
+</section>
+<section class="content-section"><div class="section-title"><h2 data-ru="Рекомендуемые компании" data-uk="Рекомендовані компанії">Рекомендуемые компании</h2><a href="catalog.html" data-ru="Смотреть все" data-uk="Дивитися всі">Смотреть все</a></div><div class="company-grid"><article class="company-card">
+  <div class="photo p1"><em data-ru="Онлайн" data-uk="Онлайн">Онлайн</em><button>♡</button></div>
+  <div class="card-body">
+    <h3>МастерПлюс</h3>
+    <p><b>⭐ 4.9</b> (128 <span data-ru="отзывов" data-uk="відгуків">отзывов</span>)</p>
+    <p data-ru="Ремонт под ключ" data-uk="Ремонт під ключ">Ремонт под ключ</p>
+    <strong>от 500 €/м²</strong>
+    <small>⌖ Москва</small>
+    <a href="company.html" data-ru="Открыть" data-uk="Відкрити">Открыть</a>
+  </div>
+</article><article class="company-card">
+  <div class="photo p2"><em data-ru="Онлайн" data-uk="Онлайн">Онлайн</em><button>♡</button></div>
+  <div class="card-body">
+    <h3>CleanHouse</h3>
+    <p><b>⭐ 4.8</b> (96 <span data-ru="отзывов" data-uk="відгуків">отзывов</span>)</p>
+    <p data-ru="Клининговые услуги" data-uk="Клінінгові послуги">Клининговые услуги</p>
+    <strong>от 150 €</strong>
+    <small>⌖ Москва</small>
+    <a href="company.html" data-ru="Открыть" data-uk="Відкрити">Открыть</a>
+  </div>
+</article><article class="company-card">
+  <div class="photo p3"><em data-ru="Онлайн" data-uk="Онлайн">Онлайн</em><button>♡</button></div>
+  <div class="card-body">
+    <h3>Перевозкин</h3>
+    <p><b>⭐ 4.9</b> (73 <span data-ru="отзывов" data-uk="відгуків">отзывов</span>)</p>
+    <p data-ru="Грузоперевозки" data-uk="Вантажоперевезення">Грузоперевозки</p>
+    <strong>от 40 €/час</strong>
+    <small>⌖ Москва</small>
+    <a href="company.html" data-ru="Открыть" data-uk="Відкрити">Открыть</a>
+  </div>
+</article><article class="company-card">
+  <div class="photo p4"><em data-ru="Онлайн" data-uk="Онлайн">Онлайн</em><button>♡</button></div>
+  <div class="card-body">
+    <h3>Design Studio</h3>
+    <p><b>⭐ 4.7</b> (54 <span data-ru="отзывов" data-uk="відгуків">отзывов</span>)</p>
+    <p data-ru="Дизайн интерьера" data-uk="Дизайн інтер’єру">Дизайн интерьера</p>
+    <strong>от 300 €/м²</strong>
+    <small>⌖ Москва</small>
+    <a href="company.html" data-ru="Открыть" data-uk="Відкрити">Открыть</a>
+  </div>
+</article></div></section>
+<section class="dashboard-row">
+  <div class="panel"><h2 data-ru="Мои активные заявки" data-uk="Мої активні заявки">Мои активные заявки</h2><div class="list-row"><div class="mini-photo p4"></div><div><b data-ru="Ремонт квартиры 60 м²" data-uk="Ремонт квартири 60 м²">Ремонт квартиры 60 м²</b><p data-ru="В поиске исполнителя · 3 предложения" data-uk="У пошуку виконавця · 3 пропозиції">В поиске исполнителя · 3 предложения</p></div></div></div>
+  <div class="panel"><h2 data-ru="Непрочитанные сообщения" data-uk="Непрочитані повідомлення">Непрочитанные сообщения</h2><div class="list-row"><div class="mini-photo p1"></div><div><b>МастерПлюс</b><p data-ru="Добрый день! Готовы предложить смету." data-uk="Добрий день! Готові запропонувати кошторис.">Добрый день! Готовы предложить смету.</p></div></div></div>
+</section>
 
-</main>
-<nav class="bottom"><a href="index.html" data-ru="Главная" data-uk="Головна">Главная</a><a href="search.html" data-ru="Поиск" data-uk="Пошук">Поиск</a><a href="request.html" data-ru="Заявка" data-uk="Заявка">Заявка</a><a href="customer.html" data-ru="Кабинет" data-uk="Кабінет">Кабинет</a></nav>
-<script src="app.js"></script>
-</body></html>
+  </main>
+
+  <nav class="mobile-nav">
+    <a href="index.html" data-ru="Главная" data-uk="Головна">Главная</a>
+    <a href="search.html" data-ru="Поиск" data-uk="Пошук">Поиск</a>
+    <a href="request.html" data-ru="Заявка" data-uk="Заявка">Заявка</a>
+    <a href="customer.html" data-ru="Кабинет" data-uk="Кабінет">Кабинет</a>
+  </nav>
+  <script src="app.js"></script>
+</body>
+</html>
