@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#bfdbfe"/><stop offset=".55" stop-color="#fef3c7"/><stop offset="1" stop-color="#dbeafe"/></linearGradient></defs>
+<rect width="1600" height="800" fill="url(#sky)"/>
+<circle cx="1250" cy="160" r="110" fill="#fff7ed"/>
+<path d="M0 600 C260 520 420 640 700 570 C980 500 1180 610 1600 520 L1600 800 L0 800 Z" fill="#f8fafc" opacity=".85"/>
+<path d="M980 180 L1040 560 L920 560 Z" fill="#92400e"/><path d="M1060 140 L1135 560 L990 560 Z" fill="#b45309"/><path d="M1160 170 L1210 560 L1110 560 Z" fill="#92400e"/>
+<rect x="260" y="420" width="280" height="140" rx="18" fill="#ffffff" opacity=".72"/>
+<rect x="560" y="380" width="240" height="180" rx="18" fill="#ffffff" opacity=".55"/>
+<text x="80" y="110" font-family="Arial" font-size="58" font-weight="800" fill="#111827">España · Kalaba</text>
+</svg>
