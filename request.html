@@ -1,24 +1,40 @@
 <!doctype html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Kalaba — Создание заявки</title>
-<link rel="stylesheet" href="styles.css"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalaba Demo — Создание заявки</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <aside class="sidebar">
-  <div class="brand"><div class="logo">K</div><div><b>Kalaba</b><span data-ru="Маркетплейс услуг в Испании" data-uk="Маркетплейс послуг в Іспанії" data-es="Marketplace de servicios en España" data-en="Services marketplace in Spain">Маркетплейс услуг в Испании</span></div></div>
+  <a class="brand" href="index.html"><span>K</span><div><b>Kalaba Demo</b><small data-ru="Демо услуг в Испании" data-uk="Демо послуг в Іспанії" data-es="Demo de servicios en España" data-en="Services demo in Spain">Демо услуг в Испании</small></div></a>
   <div class="region">🇪🇸 <span data-ru="Испания" data-uk="Іспанія" data-es="España" data-en="Spain">Испания</span></div>
-  <nav><a href="index.html" data-ru="Главная" data-uk="Головна" data-es="Inicio" data-en="Home"><span>🏠</span>Главная</a><a href="search.html" data-ru="Поиск" data-uk="Пошук" data-es="Buscar" data-en="Search"><span>🔎</span>Поиск</a><a href="catalog.html" data-ru="Каталог" data-uk="Каталог" data-es="Catálogo" data-en="Catalog"><span>🏢</span>Каталог</a><a href="request.html" data-ru="Заявка" data-uk="Заявка" data-es="Solicitud" data-en="Request"><span>📝</span>Заявка</a><a href="offers.html" data-ru="Предложения" data-uk="Пропозиції" data-es="Ofertas" data-en="Offers"><span>💬</span>Предложения</a><a href="chat.html" data-ru="Чат" data-uk="Чат" data-es="Chat" data-en="Chat"><span>💭</span>Чат</a><a href="deal.html" data-ru="Сделки" data-uk="Угоди" data-es="Negocios" data-en="Deals"><span>🤝</span>Сделки</a><a href="payment.html" data-ru="Оплата" data-uk="Оплата" data-es="Pagos" data-en="Payments"><span>💳</span>Оплата</a><a href="map.html" data-ru="Карта" data-uk="Карта" data-es="Mapa" data-en="Map"><span>🗺️</span>Карта</a><a href="customer.html" data-ru="Клиент" data-uk="Клієнт" data-es="Cliente" data-en="Customer"><span>👤</span>Клиент</a><a href="business.html" data-ru="Компания" data-uk="Компанія" data-es="Empresa" data-en="Business"><span>📊</span>Компания</a><a href="admin.html" data-ru="Админ" data-uk="Адмін" data-es="Admin" data-en="Admin"><span>🛡️</span>Админ</a></nav>
-  <div class="side-box"><b data-ru="Для компаний" data-uk="Для компаній" data-es="Para empresas" data-en="For businesses">Для компаний</b><p data-ru="CRM, лиды, календарь, финансы и аналитика." data-uk="CRM, ліди, календар, фінанси та аналітика." data-es="CRM, leads, calendario, finanzas y analítica." data-en="CRM, leads, calendar, finance and analytics.">CRM, лиды, календарь, финансы и аналитика.</p><a href="business.html" data-ru="Открыть кабинет" data-uk="Відкрити кабінет" data-es="Abrir panel" data-en="Open dashboard">Открыть кабинет</a></div>
+  <nav><a href="index.html" data-ru="Главная" data-uk="Головна" data-es="Inicio" data-en="Home">Главная</a>
+<a href="catalog.html" data-ru="Каталог" data-uk="Каталог" data-es="Catálogo" data-en="Catalog">Каталог</a>
+<a href="search.html" data-ru="Поиск" data-uk="Пошук" data-es="Buscar" data-en="Search">Поиск</a>
+<a href="request.html" data-ru="Заявка" data-uk="Заявка" data-es="Solicitud" data-en="Request">Заявка</a>
+<a href="offers.html" data-ru="Предложения" data-uk="Пропозиції" data-es="Ofertas" data-en="Offers">Предложения</a>
+<a href="chat.html" data-ru="Чат" data-uk="Чат" data-es="Chat" data-en="Chat">Чат</a>
+<a href="deal.html" data-ru="Сделка" data-uk="Угода" data-es="Negocio" data-en="Deal">Сделка</a>
+<a href="map.html" data-ru="Карта" data-uk="Карта" data-es="Mapa" data-en="Map">Карта</a>
+<a href="customer.html" data-ru="Клиент" data-uk="Клієнт" data-es="Cliente" data-en="Customer">Клиент</a>
+<a href="business.html" data-ru="Компания" data-uk="Компанія" data-es="Empresa" data-en="Business">Компания</a>
+<a href="admin.html" data-ru="Админ" data-uk="Адмін" data-es="Admin" data-en="Admin">Админ</a></nav>
+  <div class="side-card"><b data-ru="Это демо-версия" data-uk="Це демо-версія" data-es="Es una demo" data-en="This is a demo">Это демо-версия</b><p data-ru="Данные демонстрационные. Все экраны кликабельные." data-uk="Дані демонстраційні. Усі екрани клікабельні." data-es="Datos de demostración. Pantallas clicables." data-en="Demo data. Clickable screens.">Данные демонстрационные. Все экраны кликабельные.</p></div>
 </aside>
 <main>
-<header class="topbar">
-  <div class="top-search"><span>⌕</span><input data-placeholder-ru="Поиск услуг, компаний, городов..." data-placeholder-uk="Пошук послуг, компаній, міст..." data-placeholder-es="Buscar servicios, empresas, ciudades..." data-placeholder-en="Search services, companies, cities..." placeholder="Поиск услуг, компаний, городов..."/></div>
-  <div class="top-actions"><button class="lang active" data-lang="ru">Русский</button><button class="lang" data-lang="uk">Українська</button><button class="lang" data-lang="es">Español</button><button class="lang" data-lang="en">English</button><button class="theme" id="themeToggle">☾</button><button class="bell">🔔<small>3</small></button></div>
-</header>
-<section class="page-head"><h1 data-ru="Создание заявки" data-uk="Створення заявки" data-es="Crear solicitud" data-en="Create request">Создание заявки</h1><p data-ru="Регион — Испания. Русский язык включён по умолчанию." data-uk="Регіон — Іспанія. Російська мова увімкнена за замовчуванням." data-es="Región: España. Español disponible en el selector." data-en="Region: Spain. English is available in the selector.">Регион — Испания. Русский язык включён по умолчанию.</p></section><section class="deal-layout"><div class="panel"><div class="progress"><span>Заявка</span><span>Предложение</span><span class="active">В работе</span><span>Оплата</span></div><h2>Ремонт квартиры в Мадриде</h2><p>Адрес: Calle de Alcalá, 45, 28014 Madrid. Компания: Сантехник Мадрид. Сумма: 1 200 €.</p><a class="btn" href="payment.html">Перейти к оплате</a></div><div class="panel"><h2>Чат</h2><p class="bubble left">Можем начать в понедельник.</p><p class="bubble right">Подходит, оформляем сделку.</p><input placeholder="Введите сообщение..."></div></section>
+  <header class="topbar">
+    <div class="search">⌕ <input placeholder="Поиск услуг, компаний, городов..." data-placeholder-ru="Поиск услуг, компаний, городов..." data-placeholder-uk="Пошук послуг, компаній, міст..." data-placeholder-es="Buscar servicios, empresas, ciudades..." data-placeholder-en="Search services, companies, cities..."></div>
+    <div class="langs"><button class="lang active" data-lang="ru">Русский</button><button class="lang" data-lang="uk">Українська</button><button class="lang" data-lang="es">Español</button><button class="lang" data-lang="en">English</button><button id="theme">☾</button></div>
+  </header>
+  <section class="page-head"><h1 data-ru="Создание заявки" data-uk="Створення заявки" data-es="Crear solicitud" data-en="Create request">Создание заявки</h1><p data-ru="Демо-данные для рынка Испании. Русский язык включён по умолчанию." data-uk="Демо-дані для ринку Іспанії. Російська мова увімкнена за замовчуванням." data-es="Datos demo para el mercado español." data-en="Demo data for the Spanish market.">Демо-данные для рынка Испании. Русский язык включён по умолчанию.</p></section>
+<section class="split section">
+  <div class="panel"><div class="steps"><span>Заявка</span><span>Предложение</span><span class="active">В работе</span><span>Оплата</span></div><h2>Ремонт квартиры в Мадриде</h2><p>Компания: Сантехник Мадрид. Сумма: 1 200 €.</p><a class="primary" href="payment.html">Перейти к оплате</a></div>
+  <div class="panel"><h2>Чат</h2><p class="bubble">Можем начать в понедельник.</p><p class="bubble mine">Подходит, оформляем сделку.</p><input placeholder="Введите сообщение..."></div>
+</section>
 </main>
-<nav class="mobile-nav"><a href="index.html" data-ru="Главная" data-uk="Головна" data-es="Inicio" data-en="Home">Главная</a><a href="search.html" data-ru="Поиск" data-uk="Пошук" data-es="Buscar" data-en="Search">Поиск</a><a href="request.html" data-ru="Заявка" data-uk="Заявка" data-es="Solicitud" data-en="Request">Заявка</a><a href="customer.html" data-ru="Кабинет" data-uk="Кабінет" data-es="Cuenta" data-en="Account">Кабинет</a></nav>
+<nav class="mobile"><a href="index.html" data-ru="Главная" data-uk="Головна" data-es="Inicio" data-en="Home">Главная</a><a href="catalog.html" data-ru="Каталог" data-uk="Каталог" data-es="Catálogo" data-en="Catalog">Каталог</a><a href="request.html" data-ru="Заявка" data-uk="Заявка" data-es="Solicitud" data-en="Request">Заявка</a><a href="customer.html" data-ru="Кабинет" data-uk="Кабінет" data-es="Cuenta" data-en="Account">Кабинет</a></nav>
 <script src="app.js"></script>
-</body></html>
+</body>
+</html>

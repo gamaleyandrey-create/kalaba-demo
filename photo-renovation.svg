@@ -1,14 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
-<defs>
-<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5d6b4"/><stop offset="1" stop-color="#dbeafe"/></linearGradient>
-<filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-opacity=".18"/></filter>
-</defs>
-<rect width="900" height="520" rx="34" fill="url(#g)"/>
-<rect x="70" y="95" width="760" height="330" rx="28" fill="rgba(255,255,255,.55)" filter="url(#s)"/>
-<circle cx="740" cy="130" r="86" fill="rgba(255,255,255,.45)"/>
-<circle cx="180" cy="390" r="115" fill="rgba(255,255,255,.28)"/>
-<text x="120" y="285" font-family="Arial" font-size="118">🛠</text>
-<text x="300" y="265" font-family="Arial" font-size="54" font-weight="800" fill="#111827">Ремонт</text>
-<rect x="300" y="300" width="260" height="18" rx="9" fill="#2563eb" opacity=".18"/>
-<rect x="300" y="335" width="380" height="16" rx="8" fill="#111827" opacity=".12"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fef3c7"/><stop offset="1" stop-color="#dbeafe"/></linearGradient></defs>
+<rect width="900" height="560" rx="36" fill="url(#g)"/>
+<rect x="70" y="90" width="760" height="360" rx="28" fill="rgba(255,255,255,.55)"/>
+<circle cx="730" cy="140" r="95" fill="rgba(255,255,255,.35)"/>
+<text x="115" y="300" font-family="Arial" font-size="120">🛠</text>
+<text x="300" y="285" font-family="Arial" font-size="54" font-weight="800" fill="#101828">Ремонт</text>
+<rect x="300" y="320" width="320" height="18" rx="9" fill="#2563eb" opacity=".18"/>
+<rect x="300" y="358" width="420" height="16" rx="8" fill="#101828" opacity=".12"/>
 </svg>
