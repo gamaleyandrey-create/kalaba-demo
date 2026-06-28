@@ -1,7 +1,6 @@
 
 (function(){
  let lang='ru';
- localStorage.setItem('kalaba_lang','ru');
  let dark=localStorage.getItem('kalaba_theme')==='dark';
  function apply(){
   document.documentElement.lang=lang;
@@ -11,7 +10,7 @@
   document.querySelectorAll('.lang').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang));
   const t=document.getElementById('themeToggle'); if(t)t.textContent=dark?'☀':'☾';
  }
- document.querySelectorAll('.lang').forEach(b=>b.onclick=()=>{lang=b.dataset.lang;localStorage.setItem('kalaba_lang',lang);apply()});
+ document.querySelectorAll('.lang').forEach(b=>b.onclick=()=>{lang=b.dataset.lang;apply()});
  const t=document.getElementById('themeToggle'); if(t)t.onclick=()=>{dark=!dark;localStorage.setItem('kalaba_theme',dark?'dark':'light');apply()};
  apply();
 })();
