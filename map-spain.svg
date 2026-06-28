@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700">
+<defs><linearGradient id="sea" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dbeafe"/><stop offset="1" stop-color="#dcfce7"/></linearGradient></defs>
+<rect width="900" height="700" rx="36" fill="url(#sea)"/>
+<path d="M215 155 L395 95 L610 135 L715 250 L660 445 L515 570 L310 525 L190 390 Z" fill="#fff" stroke="#2563eb" stroke-width="5"/>
+<circle cx="440" cy="335" r="13" fill="#2563eb"/><text x="460" y="342" font-family="Arial" font-size="28" font-weight="700">Madrid</text>
+<circle cx="650" cy="210" r="13" fill="#2563eb"/><text x="670" y="218" font-family="Arial" font-size="28" font-weight="700">Barcelona</text>
+<circle cx="600" cy="385" r="13" fill="#2563eb"/><text x="620" y="394" font-family="Arial" font-size="28" font-weight="700">Valencia</text>
+<circle cx="330" cy="475" r="13" fill="#2563eb"/><text x="350" y="484" font-family="Arial" font-size="28" font-weight="700">Sevilla</text>
+<circle cx="405" cy="555" r="13" fill="#2563eb"/><text x="425" y="564" font-family="Arial" font-size="28" font-weight="700">Málaga</text>
+<circle cx="355" cy="145" r="13" fill="#2563eb"/><text x="375" y="154" font-family="Arial" font-size="28" font-weight="700">Bilbao</text>
+<circle cx="545" cy="250" r="13" fill="#2563eb"/><text x="565" y="260" font-family="Arial" font-size="28" font-weight="700">Zaragoza</text>
+<text x="50" y="70" font-family="Arial" font-size="44" font-weight="800" fill="#111827">España · Kalaba</text>
+</svg>
